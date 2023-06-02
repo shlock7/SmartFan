@@ -29,7 +29,7 @@ void AD_Init(void)
 	ADC_InitStructure.ADC_ExternalTrigConv = ADC_ExternalTrigConv_None;//软件触发
 	ADC_InitStructure.ADC_ContinuousConvMode = ENABLE;     //连续模式
 	ADC_InitStructure.ADC_ScanConvMode = ENABLE;		   //扫描模式
-	ADC_InitStructure.ADC_NbrOfChannel = 4;				   //通道数
+	ADC_InitStructure.ADC_NbrOfChannel = 2;				   //通道数
 	ADC_Init(ADC1, &ADC_InitStructure);
 	
 	DMA_InitTypeDef DMA_InitStructure;
